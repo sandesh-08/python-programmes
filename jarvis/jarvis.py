@@ -148,6 +148,8 @@ if __name__ == '__main__':
             speak(wikipedia.summary(quary, sentences=2))
         elif 'awesome' in quary or 'wow' in quary or 'amazing' in quary or 'wonderful' in quary:
             speak("Thank you sir, i am here for you")
+        else:
+            speak("Command unknpwn not programmed for this command")
 
         if 'quit' in quary or 'exit' in quary or 'close' in quary:
             speak("Thank you,have a good day ahead..")
