@@ -104,7 +104,7 @@ def generateAnnouncement(filename):
 if __name__ == "__main__":
     print("Generating Skeleton...")
     generateSkeleton()
-    print("Now Generating Announcement...")
+    print("Now Making Announcement...")
     generateAnnouncement("announce_hindi.xlsx")
 
 
